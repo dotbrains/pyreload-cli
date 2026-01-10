@@ -221,7 +221,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 🔗 Links
 
-- **Documentation**: https://dotbrains.github.io/pyreload
+- **Documentation**: https://dotbrains.github.io/pyreload-cli
 - **PyPI**: https://pypi.org/project/pyreload-cli
 - **GitHub**: https://github.com/dotbrains/pyreload-cli
 - **Issues**: https://github.com/dotbrains/pyreload-cli/issues
