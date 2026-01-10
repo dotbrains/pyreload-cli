@@ -281,7 +281,7 @@ Separate development and production images:
 FROM python:3.11-slim as development
 WORKDIR /app
 COPY requirements.txt .
-RUN pip install -r requirements.txt && pip install pyreload
+RUN pip install -r requirements.txt && pip install pyreload-cli
 CMD ["pyreload", "app.py", "--polling"]
 
 # Production stage

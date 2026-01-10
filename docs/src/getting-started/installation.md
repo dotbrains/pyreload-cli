@@ -7,7 +7,7 @@ Pyreload requires Python 3.8 or higher.
 === "pip"
 
     ```bash
-    pip install pyreload
+    pip install pyreload-cli
     ```
 
 === "pipx (Recommended)"
@@ -33,7 +33,7 @@ Pyreload requires Python 3.8 or higher.
     Clone and install from GitHub:
 
     ```bash
-    git clone https://github.com/dotbrains/pyreload.git
+    git clone https://github.com/dotbrains/pyreload-cli.git
     cd pyreload
     pip install -e ".[dev]"
     ```

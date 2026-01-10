@@ -13,7 +13,7 @@ Thank you for your interest in contributing to Pyreload! This guide will help yo
 ### Clone and Install
 
 ```bash
-git clone https://github.com/dotbrains/pyreload.git
+git clone https://github.com/dotbrains/pyreload-cli.git
 cd pyreload
 
 # Quick setup with automated script (recommended)
@@ -153,7 +153,7 @@ Add polling support for Docker volumes
 
 ## Reporting Bugs
 
-Use GitHub Issues: https://github.com/dotbrains/pyreload/issues
+Use GitHub Issues: https://github.com/dotbrains/pyreload-cli/issues
 
 Include:
 
@@ -179,9 +179,9 @@ Be respectful, inclusive, and constructive. We're all here to make Pyreload bett
 
 ## Questions?
 
-- Open a [GitHub Discussion](https://github.com/dotbrains/pyreload/discussions)
-- File an [Issue](https://github.com/dotbrains/pyreload/issues)
-- Check the [Documentation](https://dotbrains.github.io/pyreload)
+- Open a [GitHub Discussion](https://github.com/dotbrains/pyreload-cli/discussions)
+- File an [Issue](https://github.com/dotbrains/pyreload-cli/issues)
+- Check the [Documentation](https://dotbrains.github.io/pyreload-cli)
 
 ## Publishing
 

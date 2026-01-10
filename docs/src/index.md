@@ -10,10 +10,10 @@ image: assets/og-image.svg
 
 **Automatically restart Python applications when file changes are detected**
 
-[![PyPI version](https://img.shields.io/pypi/v/pyreload.svg?color=3776AB&logo=python)](https://pypi.org/project/pyreload/)
-[![Python versions](https://img.shields.io/pypi/pyversions/pyreload.svg?color=3776AB&logo=python)](https://pypi.org/project/pyreload/)
-[![Coverage](https://img.shields.io/badge/coverage-99%25-brightgreen.svg)](https://github.com/dotbrains/pyreload)
-[![License](https://img.shields.io/github/license/dotbrains/pyreload.svg)](https://github.com/dotbrains/pyreload/blob/main/LICENSE)
+[![PyPI version](https://img.shields.io/pypi/v/pyreload.svg?color=3776AB&logo=python)](https://pypi.org/project/pyreload-cli)
+[![Python versions](https://img.shields.io/pypi/pyversions/pyreload.svg?color=3776AB&logo=python)](https://pypi.org/project/pyreload-cli)
+[![Coverage](https://img.shields.io/badge/coverage-99%25-brightgreen.svg)](https://github.com/dotbrains/pyreload-cli)
+[![License](https://img.shields.io/github/license/dotbrains/pyreload.svg)](https://github.com/dotbrains/pyreload-cli/blob/main/LICENSE)
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Watchdog](https://img.shields.io/badge/-Watchdog-FF6B6B?style=flat-square&logo=python&logoColor=white)
@@ -39,7 +39,7 @@ Pyreload is a modern, easy-to-use file monitoring tool that automatically restar
 === "Basic Usage"
 
     ```bash
-    pip install pyreload
+    pip install pyreload-cli
     pyreload app.py
     ```
 
@@ -123,10 +123,10 @@ Pyreload excels in these scenarios:
 
 ## Community
 
-- **GitHub**: [dotbrains/pyreload](https://github.com/dotbrains/pyreload)
-- **PyPI**: [pypi.org/project/pyreload](https://pypi.org/project/pyreload/)
-- **Issues**: [Report bugs](https://github.com/dotbrains/pyreload/issues)
+- **GitHub**: [dotbrains/pyreload](https://github.com/dotbrains/pyreload-cli)
+- **PyPI**: [pypi.org/project/pyreload-cli(https://pypi.org/project/pyreload-cli)
+- **Issues**: [Report bugs](https://github.com/dotbrains/pyreload-cli/issues)
 
 ## License
 
-MIT License - see [LICENSE](https://github.com/dotbrains/pyreload/blob/main/LICENSE) for details.
+MIT License - see [LICENSE](https://github.com/dotbrains/pyreload-cli/blob/main/LICENSE) for details.

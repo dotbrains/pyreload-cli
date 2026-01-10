@@ -28,7 +28,7 @@ export default function HomePage() {
               <ExternalLink className="w-3.5 h-3.5" />
             </a>
             <div className="flex items-center gap-3 ml-2">
-              <a href="https://github.com/dotbrains/pyreload" className="inline-flex items-center gap-2 px-4 py-2 bg-slate-800 hover:bg-slate-700 border border-cyan-500/30 text-slate-200 rounded-lg transition text-sm font-medium" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/dotbrains/pyreload-cli" className="inline-flex items-center gap-2 px-4 py-2 bg-slate-800 hover:bg-slate-700 border border-cyan-500/30 text-slate-200 rounded-lg transition text-sm font-medium" target="_blank" rel="noopener noreferrer">
                 <Github className="w-4 h-4" />
                 Star
               </a>
@@ -58,7 +58,7 @@ export default function HomePage() {
             <a href="https://dotbrains.github.io/pyreload" className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-500/50 transition">
               Get Started
             </a>
-            <a href="https://github.com/dotbrains/pyreload" className="px-8 py-3 bg-slate-800 rounded-lg font-semibold hover:bg-slate-700 transition flex items-center gap-2">
+            <a href="https://github.com/dotbrains/pyreload-cli" className="px-8 py-3 bg-slate-800 rounded-lg font-semibold hover:bg-slate-700 transition flex items-center gap-2">
               <Github className="w-5 h-5" />
               View on GitHub
             </a>
@@ -120,7 +120,7 @@ export default function HomePage() {
             {activeTab === 'basic' && (
               <pre className="text-slate-300">
                 <span className="text-slate-500"># Install</span>{'\n'}
-                <span className="text-cyan-400">pip install pyreload</span>{'\n\n'}
+                <span className="text-cyan-400">pip install pyreload-cli</span>{'\n\n'}
                 <span className="text-slate-500"># Run</span>{'\n'}
                 <span className="text-cyan-400">pyreload app.py</span>{'\n\n'}
                 <span className="text-green-400"># ✓ That's it! Auto-restart on file changes</span>
@@ -313,7 +313,7 @@ export default function HomePage() {
               </p>
               <div className="flex items-center gap-3">
                 <a
-                  href="https://github.com/dotbrains/pyreload"
+                  href="https://github.com/dotbrains/pyreload-cli"
                   className="text-slate-400 hover:text-cyan-400 transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -350,7 +350,7 @@ export default function HomePage() {
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/dotbrains/pyreload#readme" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/dotbrains/pyreload-cli#readme" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
                     Examples
                     <ExternalLink className="w-3 h-3" />
                   </a>
@@ -361,19 +361,19 @@ export default function HomePage() {
               <h4 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Community</h4>
               <ul className="space-y-3">
                 <li>
-                  <a href="https://github.com/dotbrains/pyreload" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/dotbrains/pyreload-cli" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
                     GitHub Repository
                     <ExternalLink className="w-3 h-3" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/dotbrains/pyreload/issues" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/dotbrains/pyreload-cli/issues" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
                     Report Issues
                     <ExternalLink className="w-3 h-3" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/dotbrains/pyreload/discussions" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/dotbrains/pyreload-cli/discussions" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
                     Discussions
                     <ExternalLink className="w-3 h-3" />
                   </a>

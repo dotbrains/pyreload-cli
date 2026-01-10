@@ -74,7 +74,7 @@ Execution flow:
 FROM python:3.11
 WORKDIR /app
 COPY . .
-RUN pip install pyreload
+RUN pip install pyreload-cli
 
 # Use exec mode as PID 1
 CMD ["pyreload", "--exec", "app.py"]

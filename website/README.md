@@ -75,9 +75,9 @@ website/
 
 ## External Links
 
-- **Documentation**: https://dotbrains.github.io/pyreload
-- **GitHub**: https://github.com/dotbrains/pyreload
-- **PyPI**: https://pypi.org/project/pyreload/
+- **Documentation**: https://dotbrains.github.io/pyreload-cli
+- **GitHub**: https://github.com/dotbrains/pyreload-cli
+- **PyPI**: https://pypi.org/project/pyreload-cli
 
 ## Deployment
 

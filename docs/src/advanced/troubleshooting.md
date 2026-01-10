@@ -369,7 +369,7 @@ Creates detailed log for analysis.
 
 If you're still stuck:
 
-1. **Check GitHub Issues**: [github.com/dotbrains/pyreload/issues](https://github.com/dotbrains/pyreload/issues)
+1. **Check GitHub Issues**: [github.com/dotbrains/pyreload-cli/issues](https://github.com/dotbrains/pyreload-cli/issues)
 
 2. **Create an issue** with:
    - Pyreload version: `pyreload --version`
