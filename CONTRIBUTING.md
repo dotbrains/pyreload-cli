@@ -14,7 +14,7 @@ Thank you for your interest in contributing to Pyreload! This guide will help yo
 
 ```bash
 git clone https://github.com/dotbrains/pyreload-cli.git
-cd pyreload
+cd pyreload-cli
 
 # Quick setup with automated script (recommended)
 ./setup-dev.sh

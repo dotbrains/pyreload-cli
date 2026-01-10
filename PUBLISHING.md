@@ -141,7 +141,7 @@ pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://
 
 ```bash
 # Create and push tag
-git tag v X.Y.Z
+git tag vX.Y.Z
 git push origin vX.Y.Z
 
 # Create release via GitHub CLI

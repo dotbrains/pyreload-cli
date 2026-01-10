@@ -123,8 +123,8 @@ Pyreload excels in these scenarios:
 
 ## Community
 
-- **GitHub**: [dotbrains/pyreload](https://github.com/dotbrains/pyreload-cli)
-- **PyPI**: [pypi.org/project/pyreload-cli(https://pypi.org/project/pyreload-cli)
+- **GitHub**: [dotbrains/pyreload-cli](https://github.com/dotbrains/pyreload-cli)
+- **PyPI**: [pypi.org/project/pyreload-cli](https://pypi.org/project/pyreload-cli)
 - **Issues**: [Report bugs](https://github.com/dotbrains/pyreload-cli/issues)
 
 ## License

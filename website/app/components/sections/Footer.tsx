@@ -36,7 +36,7 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://pypi.org/project/pyreload-cli-cli/" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
+                <a href="https://pypi.org/project/pyreload-cli/" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
                   PyPI Package
                   <ExternalLink className="w-3 h-3" />
                 </a>
