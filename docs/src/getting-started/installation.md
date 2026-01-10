@@ -15,7 +15,7 @@ Pyreload requires Python 3.8 or higher.
     Install pyreload globally using [pipx](https://pypa.github.io/pipx/):
 
     ```bash
-    pipx install pyreload
+    pipx install pyreload-cli
     ```
 
     This installs pyreload in an isolated environment, making it available system-wide.
@@ -25,7 +25,7 @@ Pyreload requires Python 3.8 or higher.
     Add to your development dependencies:
 
     ```bash
-    poetry add --group dev pyreload
+    poetry add --group dev pyreload-cli
     ```
 
 === "From Source"
@@ -49,7 +49,7 @@ pyreload --version
 You should see output like:
 
 ```
-pyreload 1.0.0
+1.0.3
 ```
 
 ## Dependencies
@@ -68,19 +68,19 @@ To upgrade to the latest version:
 === "pip"
 
     ```bash
-    pip install --upgrade pyreload
+    pip install --upgrade pyreload-cli
     ```
 
 === "pipx"
 
     ```bash
-    pipx upgrade pyreload
+    pipx upgrade pyreload-cli
     ```
 
 === "Poetry"
 
     ```bash
-    poetry update pyreload
+    poetry update pyreload-cli
     ```
 
 ## Platform Support
