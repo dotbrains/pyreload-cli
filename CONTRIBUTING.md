@@ -183,6 +183,10 @@ Be respectful, inclusive, and constructive. We're all here to make Pyreload bett
 - File an [Issue](https://github.com/dotbrains/pyreload/issues)
 - Check the [Documentation](https://dotbrains.github.io/pyreload)
 
+## Publishing
+
+For information about publishing releases, see [PUBLISHING.md](PUBLISHING.md).
+
 ## License
 
 By contributing, you agree that your contributions will be licensed under the MIT License.

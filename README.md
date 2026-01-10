@@ -2,10 +2,10 @@
 
 ![Pyreload](website/public/og-image.svg)
 
-[![PyPI version](https://img.shields.io/pypi/v/pyreload.svg?color=3776AB&logo=python)](https://pypi.org/project/pyreload/)
-[![Python versions](https://img.shields.io/pypi/pyversions/pyreload.svg?color=3776AB&logo=python)](https://pypi.org/project/pyreload/)
-[![License](https://img.shields.io/github/license/dotbrains/pyreload.svg)](https://github.com/dotbrains/pyreload/blob/main/LICENSE)
-[![Coverage](https://img.shields.io/badge/coverage-99%25-brightgreen.svg)](https://github.com/dotbrains/pyreload)
+[![PyPI version](https://img.shields.io/pypi/v/pyreload-cli.svg?color=3776AB&logo=python)](https://pypi.org/project/pyreload-cli/)
+[![Python versions](https://img.shields.io/pypi/pyversions/pyreload-cli.svg?color=3776AB&logo=python)](https://pypi.org/project/pyreload-cli/)
+[![License](https://img.shields.io/github/license/dotbrains/pyreload-cli.svg)](https://github.com/dotbrains/pyreload-cli/blob/main/LICENSE)
+[![Coverage](https://img.shields.io/badge/coverage-99%25-brightgreen.svg)](https://github.com/dotbrains/pyreload-cli)
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Watchdog](https://img.shields.io/badge/-Watchdog-FF6B6B?style=flat-square&logo=python&logoColor=white)
@@ -29,7 +29,7 @@ A modern, easy-to-use package to automatically restart Python applications when 
 ## 🚀 Quickstart (30 seconds)
 
 ```bash
-pip install pyreload
+pip install pyreload-cli
 pyreload app.py
 ```
 
@@ -185,8 +185,8 @@ Contributions are welcome! This project is open source.
 ### Development Setup
 
 ```bash
-git clone https://github.com/dotbrains/pyreload.git
-cd pyreload
+git clone https://github.com/dotbrains/pyreload-cli.git
+cd pyreload-cli
 
 # Quick setup (installs pre-commit hooks)
 ./setup-dev.sh
