@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "py-reload"
+name = "pyreload-cli"
 version = "1.0.0"
 description = "Automatically restart Python applications when file changes are detected, with polling support for mounted filesystems"
 readme = "README.md"
