@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Pyreload - Python File Monitor with Polling',
     description: 'Automatically restart Python apps on file changes. Perfect for Docker and Vagrant development.',
-    url: 'https://dotbrains.github.io/pyreload',
+    url: 'https://dotbrains.github.io/pyreload-cli',
     siteName: 'Pyreload',
     type: 'website',
     images: [{

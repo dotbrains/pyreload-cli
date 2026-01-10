@@ -23,7 +23,7 @@ export default function HomePage() {
             <a href="#use-cases" className="text-slate-300 hover:text-cyan-400 transition text-sm font-medium">
               Use Cases
             </a>
-            <a href="https://dotbrains.github.io/pyreload" className="text-slate-300 hover:text-cyan-400 transition text-sm font-medium inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
+            <a href="https://dotbrains.github.io/pyreload-cli" className="text-slate-300 hover:text-cyan-400 transition text-sm font-medium inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
               Docs
               <ExternalLink className="w-3.5 h-3.5" />
             </a>
@@ -32,7 +32,7 @@ export default function HomePage() {
                 <Github className="w-4 h-4" />
                 Star
               </a>
-              <a href="https://pypi.org/project/pyreload/" className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-400 hover:to-blue-400 text-white px-6 py-2 rounded-lg shadow-lg shadow-cyan-500/30 text-sm font-semibold transition-all" target="_blank" rel="noopener noreferrer">
+              <a href="https://pypi.org/project/pyreload-cli/" className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-400 hover:to-blue-400 text-white px-6 py-2 rounded-lg shadow-lg shadow-cyan-500/30 text-sm font-semibold transition-all" target="_blank" rel="noopener noreferrer">
                 Get Started
               </a>
             </div>
@@ -51,11 +51,11 @@ export default function HomePage() {
             <span className="gradient-text">Auto-Restart</span> Your Python Apps
           </h1>
           <p className="text-xl text-slate-400 mb-8 max-w-3xl mx-auto">
-            Automatically restart Python applications when file changes are detected. 
+            Automatically restart Python applications when file changes are detected.
             <span className="text-cyan-400 font-semibold"> Full support for Docker, Vagrant, and mounted filesystems</span> via polling mode.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="https://dotbrains.github.io/pyreload" className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-500/50 transition">
+            <a href="https://dotbrains.github.io/pyreload-cli" className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-500/50 transition">
               Get Started
             </a>
             <a href="https://github.com/dotbrains/pyreload-cli" className="px-8 py-3 bg-slate-800 rounded-lg font-semibold hover:bg-slate-700 transition flex items-center gap-2">
@@ -63,7 +63,7 @@ export default function HomePage() {
               View on GitHub
             </a>
           </div>
-          
+
           {/* Quick stats */}
           <div className="flex gap-8 justify-center mt-12 flex-wrap text-sm">
             <div className="flex flex-col">
@@ -88,7 +88,7 @@ export default function HomePage() {
           <h2 className="text-3xl font-bold text-center mb-12">
             Get Started in <span className="gradient-text">30 Seconds</span>
           </h2>
-          
+
           <div className="flex gap-4 justify-center mb-6">
             <button
               onClick={() => setActiveTab('basic')}
@@ -158,7 +158,7 @@ export default function HomePage() {
           <h2 className="text-3xl font-bold text-center mb-12">
             Why <span className="gradient-text">Pyreload</span>?
           </h2>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <FeatureCard
               icon={<Container className="w-6 h-6" />}
@@ -242,7 +242,7 @@ export default function HomePage() {
           <h2 className="text-3xl font-bold text-center mb-12">
             Perfect For <span className="gradient-text">Modern Development</span>
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-6">
             <UseCaseCard
               icon={<Container className="w-5 h-5" />}
@@ -288,11 +288,11 @@ export default function HomePage() {
             Join developers using Pyreload for seamless Python development
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="https://pypi.org/project/pyreload/" className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-500/50 transition inline-flex items-center gap-2">
+            <a href="https://pypi.org/project/pyreload-cli/" className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-500/50 transition inline-flex items-center gap-2">
               Install from PyPI
               <ExternalLink className="w-4 h-4" />
             </a>
-            <a href="https://dotbrains.github.io/pyreload" className="px-8 py-3 bg-slate-800 rounded-lg font-semibold hover:bg-slate-700 transition">
+            <a href="https://dotbrains.github.io/pyreload-cli" className="px-8 py-3 bg-slate-800 rounded-lg font-semibold hover:bg-slate-700 transition">
               Read Documentation
             </a>
           </div>
@@ -327,13 +327,13 @@ export default function HomePage() {
               <h4 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Product</h4>
               <ul className="space-y-3">
                 <li>
-                  <a href="https://dotbrains.github.io/pyreload" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
+                  <a href="https://dotbrains.github.io/pyreload-cli" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
                     Documentation
                     <ExternalLink className="w-3 h-3" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://pypi.org/project/pyreload/" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
+                  <a href="https://pypi.org/project/pyreload-cli-cli/" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
                     PyPI Package
                     <ExternalLink className="w-3 h-3" />
                   </a>
@@ -344,7 +344,7 @@ export default function HomePage() {
               <h4 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Resources</h4>
               <ul className="space-y-3">
                 <li>
-                  <a href="https://dotbrains.github.io/pyreload" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
+                  <a href="https://dotbrains.github.io/pyreload-cli" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
                     Getting Started
                     <ExternalLink className="w-3 h-3" />
                   </a>
