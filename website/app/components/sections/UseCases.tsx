@@ -12,13 +12,13 @@ function UseCaseCard({ icon, title, description }: { icon: React.ReactNode; titl
 
 export function UseCases() {
   return (
-    <section id="use-cases" className="py-20 px-6">
+    <section id="use-cases" className="py-16 sm:py-20 px-4 sm:px-6">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-3xl font-bold text-center mb-12">
+        <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-12 px-4">
           Perfect For <span className="gradient-text">Modern Development</span>
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">
           <UseCaseCard
             icon={<Container className="w-5 h-5" />}
             title="Docker Development"

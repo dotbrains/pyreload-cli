@@ -2,18 +2,18 @@ import { X, Check } from 'lucide-react';
 
 export function PollingHighlight() {
   return (
-    <section className="py-20 px-6 bg-gradient-to-b from-cyan-950/20 to-slate-950">
+    <section className="py-16 sm:py-20 px-4 sm:px-6 bg-gradient-to-b from-cyan-950/20 to-slate-950">
       <div className="container mx-auto max-w-4xl">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">
+        <div className="text-center mb-8 sm:mb-12 px-4">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-3 sm:mb-4">
             The <span className="gradient-text">Polling</span> Advantage
           </h2>
-          <p className="text-slate-400 text-lg">
+          <p className="text-slate-400 text-base sm:text-lg">
             Standard file watching doesn't work in containers. Pyreload's polling mode solves this.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 gap-4 sm:gap-6">
           <div className="bg-slate-900/50 border border-red-500/20 rounded-lg p-6">
             <div className="text-red-400 font-semibold mb-2 flex items-center gap-2">
               <X className="w-5 h-5" />

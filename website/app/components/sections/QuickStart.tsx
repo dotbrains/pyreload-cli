@@ -6,16 +6,16 @@ export function QuickStart() {
   const [activeTab, setActiveTab] = useState<'basic' | 'docker' | 'config'>('basic');
 
   return (
-    <section className="py-20 px-6 bg-slate-900/50">
+    <section className="py-16 sm:py-20 px-4 sm:px-6 bg-slate-900/50">
       <div className="container mx-auto max-w-4xl">
-        <h2 className="text-3xl font-bold text-center mb-12">
+        <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-12 px-4">
           Get Started in <span className="gradient-text">30 Seconds</span>
         </h2>
 
-        <div className="flex gap-4 justify-center mb-6">
+        <div className="flex gap-2 sm:gap-4 justify-center mb-6 flex-wrap px-4">
           <button
             onClick={() => setActiveTab('basic')}
-            className={`px-4 py-2 rounded-lg transition ${
+            className={`px-3 sm:px-4 py-2 rounded-lg transition text-sm sm:text-base ${
               activeTab === 'basic' ? 'bg-cyan-500 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
             }`}
           >
@@ -23,7 +23,7 @@ export function QuickStart() {
           </button>
           <button
             onClick={() => setActiveTab('docker')}
-            className={`px-4 py-2 rounded-lg transition ${
+            className={`px-3 sm:px-4 py-2 rounded-lg transition text-sm sm:text-base ${
               activeTab === 'docker' ? 'bg-cyan-500 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
             }`}
           >
@@ -31,7 +31,7 @@ export function QuickStart() {
           </button>
           <button
             onClick={() => setActiveTab('config')}
-            className={`px-4 py-2 rounded-lg transition ${
+            className={`px-3 sm:px-4 py-2 rounded-lg transition text-sm sm:text-base ${
               activeTab === 'config' ? 'bg-cyan-500 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
             }`}
           >
@@ -39,7 +39,7 @@ export function QuickStart() {
           </button>
         </div>
 
-        <div className="bg-slate-950 border border-slate-800 rounded-lg p-6 font-mono text-sm">
+        <div className="bg-slate-950 border border-slate-800 rounded-lg p-4 sm:p-6 font-mono text-xs sm:text-sm overflow-x-auto">
           {activeTab === 'basic' && (
             <pre className="text-slate-300">
               <span className="text-slate-500"># Install</span>{'\n'}

@@ -12,13 +12,13 @@ function FeatureCard({ icon, title, description }: { icon: React.ReactNode; titl
 
 export function Features() {
   return (
-    <section id="features" className="py-20 px-6">
+    <section id="features" className="py-16 sm:py-20 px-4 sm:px-6">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-3xl font-bold text-center mb-12">
+        <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-12 px-4">
           Why <span className="gradient-text">Pyreload</span>?
         </h2>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           <FeatureCard
             icon={<Container className="w-6 h-6" />}
             title="Polling Mode"
