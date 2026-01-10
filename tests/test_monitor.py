@@ -136,10 +136,7 @@ class TestMonitor:
         )
         monitor = Monitor(args)
 
-        with (
-            patch.object(Observer, "start"),
-            patch.object(Observer, "schedule"),
-        ):
+        with patch.object(Observer, "start"), patch.object(Observer, "schedule"):
             monitor.start()
             assert len(monitor.observers) > 0
             # Verify Observer was used (not PollingObserver)
@@ -158,10 +155,7 @@ class TestMonitor:
         )
         monitor = Monitor(args)
 
-        with (
-            patch.object(PollingObserver, "start"),
-            patch.object(PollingObserver, "schedule"),
-        ):
+        with patch.object(PollingObserver, "start"), patch.object(PollingObserver, "schedule"):
             monitor.start()
             assert len(monitor.observers) > 0
             # Verify PollingObserver was used
@@ -382,10 +376,9 @@ class TestMonitor:
         event.src_path = "src/test.py"
 
         # Should log and restart
-        with (
-            patch("pyreload.monitor.log") as mock_log,
-            patch.object(monitor, "restart_process") as mock_restart,
-        ):
+        with patch("pyreload.monitor.log") as mock_log, patch.object(
+            monitor, "restart_process"
+        ) as mock_restart:
             monitor._handle_event(event)
             mock_log.assert_called()
             mock_restart.assert_called_once()
@@ -496,10 +489,9 @@ class TestMonitor:
         event.src_path = "src/test.py"
 
         # Should log restart message
-        with (
-            patch("pyreload.monitor.log") as mock_log,
-            patch.object(monitor, "restart_process") as mock_restart,
-        ):
+        with patch("pyreload.monitor.log") as mock_log, patch.object(
+            monitor, "restart_process"
+        ) as mock_restart:
             monitor._handle_event(event)
             mock_log.assert_called()
             mock_restart.assert_called_once()
@@ -568,10 +560,9 @@ class TestMonitor:
         event.src_path = "debug.log"
 
         # Should log the ignore
-        with (
-            patch("pyreload.monitor.log") as mock_log,
-            patch.object(monitor, "restart_process") as mock_restart,
-        ):
+        with patch("pyreload.monitor.log") as mock_log, patch.object(
+            monitor, "restart_process"
+        ) as mock_restart:
             monitor._handle_event(event)
             mock_log.assert_called()
             mock_restart.assert_not_called()
@@ -590,11 +581,9 @@ class TestMonitor:
         )
         monitor = Monitor(args)
 
-        with (
-            patch("pyreload.monitor.log") as mock_log,
-            patch.object(Observer, "start"),
-            patch.object(Observer, "schedule"),
-        ):
+        with patch("pyreload.monitor.log") as mock_log, patch.object(
+            Observer, "start"
+        ), patch.object(Observer, "schedule"):
             monitor.start()
             # Should log startup messages
             assert mock_log.call_count >= 3  # Multiple log calls
@@ -613,11 +602,9 @@ class TestMonitor:
         )
         monitor = Monitor(args)
 
-        with (
-            patch("pyreload.monitor.log") as mock_log,
-            patch.object(PollingObserver, "start"),
-            patch.object(PollingObserver, "schedule"),
-        ):
+        with patch("pyreload.monitor.log") as mock_log, patch.object(
+            PollingObserver, "start"
+        ), patch.object(PollingObserver, "schedule"):
             monitor.start()
             # Should log startup messages including polling mode
             assert mock_log.call_count >= 2
