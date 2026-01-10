@@ -132,7 +132,8 @@ For more information, visit: https://github.com/dotbrains/pyreload
     parser.add_argument(
         "-p",
         "--polling",
-        help="use polling-based file watching (useful for mounted filesystems like Docker, Vagrant, CIFS)",
+        help="use polling-based file watching (useful for mounted filesystems like "
+        "Docker, Vagrant, CIFS)",
         action="store_true",
         default=False,
     )

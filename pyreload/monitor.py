@@ -76,10 +76,7 @@ class Monitor:
                         break
 
                 # Directory is everything before the first wildcard
-                if first_wildcard_idx > 0:
-                    directory = "/".join(parts[:first_wildcard_idx])
-                else:
-                    directory = "."
+                directory = "/".join(parts[:first_wildcard_idx]) if first_wildcard_idx > 0 else "."
 
                 # Pattern is everything from the first wildcard onwards
                 pattern = "/".join(parts[first_wildcard_idx:])
@@ -158,7 +155,7 @@ class Monitor:
                 log(Color.YELLOW, "Type 'rs' to manually restart, 'stop' to exit")
 
         # Create observers for each watch item
-        for directory, pattern in self.watch_items:
+        for directory, _pattern in self.watch_items:
             observer = observer_class()
             observer.schedule(self.event_handler, directory, recursive=True)
             self.observers.append(observer)
