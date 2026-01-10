@@ -1,4 +1,4 @@
-site_name: Pyreload Documentation
+site_name: Pyreload CLI Documentation
 site_description: Automatically restart Python applications when file changes are detected
 site_author: dotbrains
 site_url: https://dotbrains.github.io/pyreload-cli

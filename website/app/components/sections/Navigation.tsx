@@ -12,9 +12,9 @@ export function Navigation() {
       <div className="container mx-auto px-4 sm:px-6 py-4 flex justify-between items-center">
         <a href="/" className="flex items-center gap-2 sm:gap-3 hover:opacity-80 transition-opacity">
           <Image src="/favicon.svg" alt="Pyreload" width={32} height={32} className="w-7 h-7 sm:w-8 sm:h-8" />
-          <span className="text-lg sm:text-xl font-bold gradient-text">Pyreload</span>
+          <span className="text-lg sm:text-xl font-bold gradient-text">Pyreload CLI</span>
         </a>
-        
+
         {/* Desktop Navigation */}
         <div className="hidden lg:flex items-center gap-8">
           <a href="#features" className="text-slate-300 hover:text-cyan-400 transition text-sm font-medium">
