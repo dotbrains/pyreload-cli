@@ -4,11 +4,12 @@
   "description": "Marketing website for Pyreload Python file monitor",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3004",
-    "build": "next build",
+    "dev": "npm run copy-assets && next dev -p 3004",
+    "build": "npm run copy-assets && next build",
     "start": "next start -p 3004",
     "lint": "next lint",
-    "lint:fix": "next lint --fix"
+    "lint:fix": "next lint --fix",
+    "copy-assets": "mkdir -p public && cp ../assets/og-image.svg public/og-image.svg"
   },
   "dependencies": {
     "clsx": "^2.1.0",

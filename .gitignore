@@ -51,6 +51,7 @@ pyreload.json
 # Documentation build
 docs/site/
 docs/.venv/
+docs/src/assets/og-image.svg
 
 # Website
 website/node_modules/
@@ -59,3 +60,4 @@ website/out/
 website/build/
 website/.vercel/
 website/dist/
+website/public/og-image.svg

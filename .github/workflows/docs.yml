@@ -33,6 +33,11 @@ jobs:
         python -m pip install --upgrade pip
         pip install mkdocs-material
 
+    - name: Copy shared assets
+      run: |
+        mkdir -p docs/src/assets
+        cp assets/og-image.svg docs/src/assets/og-image.svg
+
     - name: Build documentation
       run: |
         cd docs

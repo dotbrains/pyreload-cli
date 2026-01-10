@@ -50,6 +50,11 @@ if [ $PORT -ne $START_PORT ]; then
     echo "Port $START_PORT is in use, using port $PORT instead"
 fi
 
+# Copy shared assets
+echo "Copying shared assets..."
+mkdir -p "$DOCS_DIR/src/assets"
+cp "$DOCS_DIR/../assets/og-image.svg" "$DOCS_DIR/src/assets/og-image.svg"
+
 echo "Starting MkDocs server on http://127.0.0.1:$PORT"
 echo "Press Ctrl+C to stop"
 echo "Auto-reload enabled - changes will be detected automatically"

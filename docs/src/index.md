@@ -1,19 +1,19 @@
 ---
-title: Pyreload - Auto-Restart Python Apps with Polling
+title: Pyreload CLI - Auto-Restart Python Apps with Polling
 description: Automatically restart Python applications when file changes are detected. Full support for Docker, Vagrant, and mounted filesystems via polling mode.
 image: assets/og-image.svg
 ---
 
-# Pyreload 🔄
+# Pyreload CLI 🔄
 
 ![Pyreload](assets/og-image.svg)
 
 **Automatically restart Python applications when file changes are detected**
 
-[![PyPI version](https://img.shields.io/pypi/v/pyreload.svg?color=3776AB&logo=python)](https://pypi.org/project/pyreload-cli)
-[![Python versions](https://img.shields.io/pypi/pyversions/pyreload.svg?color=3776AB&logo=python)](https://pypi.org/project/pyreload-cli)
+[![PyPI version](https://img.shields.io/pypi/v/pyreload-cli.svg?color=3776AB&logo=python)](https://pypi.org/project/pyreload-cli)
+[![Python versions](https://img.shields.io/pypi/pyversions/pyreload-cli.svg?color=3776AB&logo=python)](https://pypi.org/project/pyreload-cli)
 [![Coverage](https://img.shields.io/badge/coverage-99%25-brightgreen.svg)](https://github.com/dotbrains/pyreload-cli)
-[![License](https://img.shields.io/github/license/dotbrains/pyreload.svg)](https://github.com/dotbrains/pyreload-cli/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/dotbrains/pyreload-cli.svg)](https://github.com/dotbrains/pyreload-cli/blob/master/LICENSE)
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Watchdog](https://img.shields.io/badge/-Watchdog-FF6B6B?style=flat-square&logo=python&logoColor=white)
