@@ -24,7 +24,7 @@ def load_config():
         config_path = Path(config_name)
         if config_path.exists():
             try:
-                with open(config_path, "r") as f:
+                with open(config_path) as f:
                     config = json.load(f)
                 return config, config_name
             except json.JSONDecodeError as e:

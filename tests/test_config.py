@@ -2,10 +2,6 @@
 
 import argparse
 import json
-import tempfile
-from pathlib import Path
-
-import pytest
 
 from pyreload.main import load_config, merge_config
 
@@ -142,7 +138,7 @@ class TestConfig:
 
     def test_load_config_io_error(self, monkeypatch, tmp_path):
         """Test loading config with IO error"""
-        from unittest.mock import patch, mock_open
+        from unittest.mock import mock_open, patch
 
         monkeypatch.chdir(tmp_path)
         config_path = tmp_path / ".pyreloadrc"

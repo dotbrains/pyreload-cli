@@ -1,10 +1,6 @@
 """Tests for main.py CLI and entry point."""
 
-import argparse
-import sys
-from unittest.mock import Mock, patch, MagicMock
-
-import pytest
+from unittest.mock import Mock, patch
 
 from pyreload.main import create_parser, main
 
@@ -74,14 +70,19 @@ class TestCreateParser:
     def test_parser_combined_flags(self):
         """Test parser with all flags combined"""
         parser = create_parser()
-        args = parser.parse_args([
-            "app.py",
-            "-w", "*.py",
-            "-w", "config/*.yaml",
-            "-i", "*.log",
-            "--polling",
-            "--debug",
-        ])
+        args = parser.parse_args(
+            [
+                "app.py",
+                "-w",
+                "*.py",
+                "-w",
+                "config/*.yaml",
+                "-i",
+                "*.log",
+                "--polling",
+                "--debug",
+            ]
+        )
         assert args.command == "app.py"
         assert args.watch == ["*.py", "config/*.yaml"]
         assert args.ignore == ["*.log"]
@@ -116,7 +117,9 @@ class TestMain:
     @patch("pyreload.main.log")
     @patch("builtins.input")
     @patch("sys.argv", ["pyreload", "app.py"])
-    def test_main_with_config_file(self, mock_input, mock_log, mock_load_config, mock_monitor_class):
+    def test_main_with_config_file(
+        self, mock_input, mock_log, mock_load_config, mock_monitor_class
+    ):
         """Test main execution with config file"""
         mock_load_config.return_value = ({"watch": ["*.py"]}, ".pyreloadrc")
         mock_monitor = Mock()
@@ -208,7 +211,9 @@ class TestMain:
     @patch("pyreload.main.load_config")
     @patch("pyreload.main.time.sleep")
     @patch("sys.argv", ["pyreload", "app.py", "--clean"])
-    def test_main_clean_mode_no_config_logging(self, mock_sleep, mock_load_config, mock_monitor_class):
+    def test_main_clean_mode_no_config_logging(
+        self, mock_sleep, mock_load_config, mock_monitor_class
+    ):
         """Test main in clean mode doesn't log config file"""
         mock_load_config.return_value = ({"watch": ["*.py"]}, ".pyreloadrc")
         mock_monitor = Mock()

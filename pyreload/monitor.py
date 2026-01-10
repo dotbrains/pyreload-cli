@@ -4,7 +4,6 @@ import fnmatch
 import os
 import subprocess
 import sys
-from pathlib import Path
 
 from watchdog.events import PatternMatchingEventHandler
 from watchdog.observers import Observer
@@ -68,20 +67,20 @@ class Monitor:
                 # Has directory component
                 # Split on first non-wildcard directory separator
                 parts = path_pattern.replace("\\", "/").split("/")
-                
+
                 # Find first part with wildcard
                 first_wildcard_idx = 0
                 for i, part in enumerate(parts):
                     if any(char in part for char in ["*", "?", "["]):
                         first_wildcard_idx = i
                         break
-                
+
                 # Directory is everything before the first wildcard
                 if first_wildcard_idx > 0:
                     directory = "/".join(parts[:first_wildcard_idx])
                 else:
                     directory = "."
-                
+
                 # Pattern is everything from the first wildcard onwards
                 pattern = "/".join(parts[first_wildcard_idx:])
             else:

@@ -3,7 +3,6 @@
 import argparse
 from unittest.mock import Mock, patch
 
-import pytest
 from watchdog.observers import Observer
 from watchdog.observers.polling import PollingObserver
 

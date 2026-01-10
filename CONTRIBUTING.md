@@ -16,15 +16,17 @@ Thank you for your interest in contributing to Pyreload! This guide will help yo
 git clone https://github.com/dotbrains/pyreload.git
 cd pyreload
 
-# Create and activate virtual environment
+# Quick setup with automated script (recommended)
+./setup-dev.sh
+
+# Or manual setup:
 python3 -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-
-# Install in editable mode with dev dependencies
 pip install -e ".[dev]"
+pre-commit install
 ```
 
-This creates a virtual environment and installs Pyreload in editable mode with all development dependencies.
+This creates a virtual environment, installs Pyreload in editable mode with all development dependencies, and sets up pre-commit hooks.
 
 ## Running Tests
 
@@ -48,20 +50,16 @@ We use:
 
 - **Black** for code formatting
 - **Ruff** for linting
+- **Pre-commit** hooks to automatically format and lint on commit
 
-Format your code:
+Pre-commit hooks will automatically run when you commit. To run manually:
 
 ```bash
-# Format code
+# Run all pre-commit hooks
+pre-commit run --all-files
+
+# Or format/lint manually
 black pyreload tests
-
-# Check formatting
-black --check pyreload tests
-
-# Lint code
-ruff check pyreload tests
-
-# Fix linting issues
 ruff check --fix pyreload tests
 ```
 

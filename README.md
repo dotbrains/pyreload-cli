@@ -187,9 +187,15 @@ Contributions are welcome! This project is open source.
 ```bash
 git clone https://github.com/dotbrains/pyreload.git
 cd pyreload
+
+# Quick setup (installs pre-commit hooks)
+./setup-dev.sh
+
+# Or manual setup
 python3 -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -e ".[dev]"
+pre-commit install
 ```
 
 ### Run Tests
@@ -200,7 +206,11 @@ pytest
 
 ### Format Code
 
+Pre-commit hooks will automatically format on commit. To run manually:
+
 ```bash
+pre-commit run --all-files
+# Or manually:
 black .
 ruff check --fix .
 ```

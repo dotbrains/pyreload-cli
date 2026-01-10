@@ -45,15 +45,25 @@ pip install --upgrade pip > /dev/null
 echo "Installing pyreload in editable mode with dev dependencies..."
 pip install -e ".[dev]"
 
+# Install pre-commit hooks
+echo ""
+echo "Installing pre-commit hooks..."
+pre-commit install
+
 echo ""
 echo "✓ Setup complete!"
 echo ""
 echo "To activate the virtual environment, run:"
 echo "  source .venv/bin/activate"
 echo ""
+echo "Pre-commit hooks are installed and will run automatically on commit."
+echo ""
 echo "To run tests:"
 echo "  pytest"
 echo ""
-echo "To format code:"
+echo "To format code manually:"
 echo "  black pyreload tests"
 echo "  ruff check --fix pyreload tests"
+echo ""
+echo "To run pre-commit manually:"
+echo "  pre-commit run --all-files"
