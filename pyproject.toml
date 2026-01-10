@@ -1,0 +1,81 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyreload"
+version = "1.0.0"
+description = "Automatically restart Python applications when file changes are detected, with polling support for mounted filesystems"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "dotbrains", email = "contact@dotbrains.dev"}
+]
+keywords = [
+    "development",
+    "file-watching",
+    "hot-reload",
+    "docker",
+    "vagrant",
+    "polling",
+    "monitor",
+    "restart",
+    "devtools"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Testing",
+    "Topic :: System :: Filesystems",
+]
+dependencies = [
+    "colorama>=0.4.4",
+    "watchdog>=2.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/dotbrains/pyreload"
+Documentation = "https://dotbrains.github.io/pyreload"
+Repository = "https://github.com/dotbrains/pyreload"
+"Bug Reports" = "https://github.com/dotbrains/pyreload/issues"
+
+[project.scripts]
+pyreload = "pyreload.main:main"
+
+[tool.setuptools]
+packages = ["pyreload"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --cov=pyreload --cov-report=term-missing"
+
+[tool.black]
+line-length = 100
+target-version = ["py38", "py39", "py310", "py311", "py312"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py38"
+select = ["E", "F", "W", "I", "N", "UP", "B", "A", "C4", "SIM"]
+ignore = []

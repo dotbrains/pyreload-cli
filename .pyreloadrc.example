@@ -1,0 +1,8 @@
+{
+  "watch": ["*.py", "config/*.yaml"],
+  "ignore": ["*__pycache__*", "*.log", ".git/*", "*.pyc"],
+  "debug": false,
+  "clean": false,
+  "exec": false,
+  "polling": false
+}
