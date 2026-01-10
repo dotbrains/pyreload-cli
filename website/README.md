@@ -42,26 +42,49 @@ pnpm start
 ```
 website/
 ├── app/
-│   ├── layout.tsx        # Root layout with metadata
-│   └── page.tsx          # Main landing page
+│   ├── components/
+│   │   └── sections/       # Modular page sections
+│   │       ├── Navigation.tsx
+│   │       ├── Hero.tsx
+│   │       ├── QuickStart.tsx
+│   │       ├── Features.tsx
+│   │       ├── PollingHighlight.tsx
+│   │       ├── UseCases.tsx
+│   │       ├── CTA.tsx
+│   │       └── Footer.tsx
+│   ├── layout.tsx          # Root layout with metadata
+│   └── page.tsx            # Main page (composition only)
 ├── src/
 │   └── styles/
-│       └── globals.css   # Global styles and Tailwind
-├── public/               # Static assets
+│       └── globals.css     # Global styles and Tailwind
+├── public/                 # Static assets
 ├── package.json
 ├── next.config.js
 ├── tailwind.config.js
 └── tsconfig.json
 ```
 
+## Architecture
+
+The landing page is built with a modular component architecture:
+
+- **`page.tsx`** - Main composition file that imports and arranges section components
+- **`components/sections/`** - Individual, self-contained section components
+
+This approach provides:
+- Easy maintenance - edit sections independently
+- Reusability - sections can be reordered or reused
+- Clean code - each section is focused and testable
+- Better DX - smaller files, clearer structure
+
 ## Page Sections
 
 1. **Navigation** - Fixed header with links to docs, GitHub, PyPI
 2. **Hero** - Main value proposition with polling support badge
-3. **Quick Examples** - Tabbed code examples
+3. **QuickStart** - Tabbed code examples (interactive)
 4. **Features** - Grid of 6 key features
-5. **Polling Highlight** - Visual comparison section
-6. **Use Cases** - Common development scenarios
+5. **PollingHighlight** - Visual comparison section
+6. **UseCases** - Common development scenarios
 7. **CTA** - Call-to-action with PyPI and docs links
 8. **Footer** - Links and credits
 
