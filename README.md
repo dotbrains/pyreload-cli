@@ -4,6 +4,7 @@
 
 [![PyPI version](https://img.shields.io/pypi/v/pyreload-cli.svg?color=3776AB&logo=python)](https://pypi.org/project/pyreload-cli/)
 [![Python versions](https://img.shields.io/pypi/pyversions/pyreload-cli.svg?color=3776AB&logo=python)](https://pypi.org/project/pyreload-cli/)
+[![PyPI stats](https://img.shields.io/pypi/dm/pyreload-cli?color=3776AB&logo=python)](https://pypi.org/project/pyreload-cli)
 [![License](https://img.shields.io/github/license/dotbrains/pyreload-cli.svg)](https://github.com/dotbrains/pyreload-cli/blob/master/LICENSE)
 [![Coverage](https://img.shields.io/badge/coverage-99%25-brightgreen.svg)](https://github.com/dotbrains/pyreload-cli)
 
