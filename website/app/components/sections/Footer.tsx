@@ -89,7 +89,7 @@ export function Footer() {
             © {new Date().getFullYear()} Pyreload. All rights reserved.
           </p>
           <p className="text-slate-500 text-xs">
-            Open source software licensed under MIT
+            Licensed under PolyForm Shield 1.0.0
           </p>
         </div>
       </div>
