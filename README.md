@@ -5,7 +5,7 @@
 [![PyPI version](https://img.shields.io/pypi/v/pyreload-cli.svg?color=3776AB&logo=python)](https://pypi.org/project/pyreload-cli/)
 [![Python versions](https://img.shields.io/pypi/pyversions/pyreload-cli.svg?color=3776AB&logo=python)](https://pypi.org/project/pyreload-cli/)
 [![PyPI stats](https://img.shields.io/pypi/dm/pyreload-cli?color=3776AB&logo=python)](https://pypi.org/project/pyreload-cli)
-[![License](https://img.shields.io/github/license/dotbrains/pyreload-cli.svg)](https://github.com/dotbrains/pyreload-cli/blob/master/LICENSE)
+[![License: PolyForm Shield 1.0.0](https://img.shields.io/badge/License-PolyForm%20Shield%201.0.0-blue.svg)](https://polyformproject.org/licenses/shield/1.0.0/)
 [![Coverage](https://img.shields.io/badge/coverage-99%25-brightgreen.svg)](https://github.com/dotbrains/pyreload-cli)
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -218,8 +218,7 @@ ruff check --fix .
 
 ## 📄 License
 
-MIT License - see [LICENSE](LICENSE) file for details.
-
+This project is licensed under the [PolyForm Shield License 1.0.0](https://polyformproject.org/licenses/shield/1.0.0/) — see [LICENSE](LICENSE) for details.
 ## 🔗 Links
 
 - **Documentation**: https://dotbrains.github.io/pyreload-cli
