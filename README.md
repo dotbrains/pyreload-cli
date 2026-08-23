@@ -1,12 +1,12 @@
 # Pyreload CLI 🔄
 
-![Pyreload](https://raw.githubusercontent.com/dotbrains/pyreload/master/assets/og-image.svg)
+![Pyreload](https://raw.githubusercontent.com/smeltery/pyreload/master/assets/og-image.svg)
 
 [![PyPI version](https://img.shields.io/pypi/v/pyreload-cli.svg?color=3776AB&logo=python)](https://pypi.org/project/pyreload-cli/)
 [![Python versions](https://img.shields.io/pypi/pyversions/pyreload-cli.svg?color=3776AB&logo=python)](https://pypi.org/project/pyreload-cli/)
 [![PyPI stats](https://img.shields.io/pypi/dm/pyreload-cli?color=3776AB&logo=python)](https://pypi.org/project/pyreload-cli)
 [![License: PolyForm Shield 1.0.0](https://img.shields.io/badge/License-PolyForm%20Shield%201.0.0-blue.svg)](https://polyformproject.org/licenses/shield/1.0.0/)
-[![Coverage](https://img.shields.io/badge/coverage-99%25-brightgreen.svg)](https://github.com/dotbrains/pyreload-cli)
+[![Coverage](https://img.shields.io/badge/coverage-99%25-brightgreen.svg)](https://github.com/smeltery/pyreload-cli)
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Watchdog](https://img.shields.io/badge/-Watchdog-FF6B6B?style=flat-square&logo=python&logoColor=white)
@@ -186,7 +186,7 @@ Contributions are welcome! This project is open source.
 ### Development Setup
 
 ```bash
-git clone https://github.com/dotbrains/pyreload-cli.git
+git clone https://github.com/smeltery/pyreload-cli.git
 cd pyreload-cli
 
 # Quick setup (installs pre-commit hooks)
@@ -221,10 +221,10 @@ ruff check --fix .
 This project is licensed under the [PolyForm Shield License 1.0.0](https://polyformproject.org/licenses/shield/1.0.0/) — see [LICENSE](LICENSE) for details.
 ## 🔗 Links
 
-- **Documentation**: https://dotbrains.github.io/pyreload-cli
+- **Documentation**: https://smeltery.github.io/pyreload-cli
 - **PyPI**: https://pypi.org/project/pyreload-cli
-- **GitHub**: https://github.com/dotbrains/pyreload-cli
-- **Issues**: https://github.com/dotbrains/pyreload-cli/issues
+- **GitHub**: https://github.com/smeltery/pyreload-cli
+- **Issues**: https://github.com/smeltery/pyreload-cli/issues
 
 ## 💡 Inspiration
 
@@ -232,4 +232,4 @@ Inspired by [py-mon](https://github.com/kevinjosethomas/py-mon) and [nodemon](ht
 
 ---
 
-**Made with ❤️ by dotbrains**
+**Made with ❤️ by smeltery**

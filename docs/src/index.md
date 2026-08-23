@@ -12,8 +12,8 @@ image: assets/og-image.svg
 
 [![PyPI version](https://img.shields.io/pypi/v/pyreload-cli.svg?color=3776AB&logo=python)](https://pypi.org/project/pyreload-cli)
 [![Python versions](https://img.shields.io/pypi/pyversions/pyreload-cli.svg?color=3776AB&logo=python)](https://pypi.org/project/pyreload-cli)
-[![Coverage](https://img.shields.io/badge/coverage-99%25-brightgreen.svg)](https://github.com/dotbrains/pyreload-cli)
-[![License](https://img.shields.io/github/license/dotbrains/pyreload-cli.svg)](https://github.com/dotbrains/pyreload-cli/blob/master/LICENSE)
+[![Coverage](https://img.shields.io/badge/coverage-99%25-brightgreen.svg)](https://github.com/smeltery/pyreload-cli)
+[![License](https://img.shields.io/github/license/smeltery/pyreload-cli.svg)](https://github.com/smeltery/pyreload-cli/blob/master/LICENSE)
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Watchdog](https://img.shields.io/badge/-Watchdog-FF6B6B?style=flat-square&logo=python&logoColor=white)
@@ -123,10 +123,10 @@ Pyreload excels in these scenarios:
 
 ## Community
 
-- **GitHub**: [dotbrains/pyreload-cli](https://github.com/dotbrains/pyreload-cli)
+- **GitHub**: [smeltery/pyreload-cli](https://github.com/smeltery/pyreload-cli)
 - **PyPI**: [pypi.org/project/pyreload-cli](https://pypi.org/project/pyreload-cli)
-- **Issues**: [Report bugs](https://github.com/dotbrains/pyreload-cli/issues)
+- **Issues**: [Report bugs](https://github.com/smeltery/pyreload-cli/issues)
 
 ## License
 
-MIT License - see [LICENSE](https://github.com/dotbrains/pyreload-cli/blob/main/LICENSE) for details.
+MIT License - see [LICENSE](https://github.com/smeltery/pyreload-cli/blob/main/LICENSE) for details.

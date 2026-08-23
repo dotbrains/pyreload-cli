@@ -11,14 +11,14 @@ export const metadata: Metadata = {
   title: 'Pyreload - Auto-Restart Python Apps with Polling Support',
   description: 'Automatically restart Python applications when file changes are detected. Full support for Docker, Vagrant, and mounted filesystems via polling mode.',
   keywords: ['python', 'file monitoring', 'hot reload', 'docker', 'vagrant', 'development tools', 'polling'],
-  authors: [{ name: 'dotbrains' }],
+  authors: [{ name: 'smeltery' }],
   icons: {
     icon: '/favicon.svg',
   },
   openGraph: {
     title: 'Pyreload - Python File Monitor with Polling',
     description: 'Automatically restart Python apps on file changes. Perfect for Docker and Vagrant development.',
-    url: 'https://dotbrains.github.io/pyreload-cli',
+    url: 'https://smeltery.github.io/pyreload-cli',
     siteName: 'Pyreload',
     type: 'website',
     images: [{

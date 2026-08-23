@@ -33,7 +33,7 @@ Pyreload requires Python 3.8 or higher.
     Clone and install from GitHub:
 
     ```bash
-    git clone https://github.com/dotbrains/pyreload-cli.git
+    git clone https://github.com/smeltery/pyreload-cli.git
     cd pyreload-cli
     pip install -e ".[dev]"
     ```

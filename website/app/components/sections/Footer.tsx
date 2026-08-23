@@ -16,7 +16,7 @@ export function Footer() {
             </p>
             <div className="flex items-center gap-3">
               <a
-                href="https://github.com/dotbrains/pyreload-cli"
+                href="https://github.com/smeltery/pyreload-cli"
                 className="text-slate-400 hover:text-cyan-400 transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -30,7 +30,7 @@ export function Footer() {
             <h4 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Product</h4>
             <ul className="space-y-3">
               <li>
-                <a href="https://dotbrains.github.io/pyreload-cli" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
+                <a href="https://smeltery.github.io/pyreload-cli" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
                   Documentation
                   <ExternalLink className="w-3 h-3" />
                 </a>
@@ -47,13 +47,13 @@ export function Footer() {
             <h4 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Resources</h4>
             <ul className="space-y-3">
               <li>
-                <a href="https://dotbrains.github.io/pyreload-cli" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
+                <a href="https://smeltery.github.io/pyreload-cli" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
                   Getting Started
                   <ExternalLink className="w-3 h-3" />
                 </a>
               </li>
               <li>
-                <a href="https://github.com/dotbrains/pyreload-cli#readme" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/smeltery/pyreload-cli#readme" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
                   Examples
                   <ExternalLink className="w-3 h-3" />
                 </a>
@@ -64,19 +64,19 @@ export function Footer() {
             <h4 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Community</h4>
             <ul className="space-y-3">
               <li>
-                <a href="https://github.com/dotbrains/pyreload-cli" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/smeltery/pyreload-cli" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
                   GitHub Repository
                   <ExternalLink className="w-3 h-3" />
                 </a>
               </li>
               <li>
-                <a href="https://github.com/dotbrains/pyreload-cli/issues" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/smeltery/pyreload-cli/issues" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
                   Report Issues
                   <ExternalLink className="w-3 h-3" />
                 </a>
               </li>
               <li>
-                <a href="https://github.com/dotbrains/pyreload-cli/discussions" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/smeltery/pyreload-cli/discussions" className="text-slate-400 hover:text-cyan-400 text-sm transition-colors inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
                   Discussions
                   <ExternalLink className="w-3 h-3" />
                 </a>

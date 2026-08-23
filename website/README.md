@@ -98,8 +98,8 @@ This approach provides:
 
 ## External Links
 
-- **Documentation**: https://dotbrains.github.io/pyreload-cli
-- **GitHub**: https://github.com/dotbrains/pyreload-cli
+- **Documentation**: https://smeltery.github.io/pyreload-cli
+- **GitHub**: https://github.com/smeltery/pyreload-cli
 - **PyPI**: https://pypi.org/project/pyreload-cli
 
 ## Deployment

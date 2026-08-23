@@ -15,7 +15,7 @@ The following GitHub Actions secrets must be configured in the repository:
 
 #### Via GitHub Web Interface
 
-1. Go to https://github.com/dotbrains/pyreload-cli
+1. Go to https://github.com/smeltery/pyreload-cli
 2. Navigate to **Settings** → **Secrets and variables** → **Actions**
 3. Click **New repository secret**
 4. Add the secret name and value
@@ -151,7 +151,7 @@ gh release create vX.Y.Z \
 ```
 
 Or create release via GitHub web interface:
-1. Go to https://github.com/dotbrains/pyreload-cli/releases
+1. Go to https://github.com/smeltery/pyreload-cli/releases
 2. Click **Draft a new release**
 3. Choose the tag you created
 4. Fill in release title and notes

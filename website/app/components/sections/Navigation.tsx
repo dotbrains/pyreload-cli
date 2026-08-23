@@ -23,12 +23,12 @@ export function Navigation() {
           <a href="#use-cases" className="text-slate-300 hover:text-cyan-400 transition text-sm font-medium">
             Use Cases
           </a>
-          <a href="https://dotbrains.github.io/pyreload-cli" className="text-slate-300 hover:text-cyan-400 transition text-sm font-medium inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
+          <a href="https://smeltery.github.io/pyreload-cli" className="text-slate-300 hover:text-cyan-400 transition text-sm font-medium inline-flex items-center gap-1.5" target="_blank" rel="noopener noreferrer">
             Docs
             <ExternalLink className="w-3.5 h-3.5" />
           </a>
           <div className="flex items-center gap-3 ml-2">
-            <a href="https://github.com/dotbrains/pyreload-cli" className="inline-flex items-center gap-2 px-4 py-2 bg-slate-800 hover:bg-slate-700 border border-cyan-500/30 text-slate-200 rounded-lg transition text-sm font-medium" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/smeltery/pyreload-cli" className="inline-flex items-center gap-2 px-4 py-2 bg-slate-800 hover:bg-slate-700 border border-cyan-500/30 text-slate-200 rounded-lg transition text-sm font-medium" target="_blank" rel="noopener noreferrer">
               <Github className="w-4 h-4" />
               Star
             </a>
@@ -67,7 +67,7 @@ export function Navigation() {
               Use Cases
             </a>
             <a
-              href="https://dotbrains.github.io/pyreload-cli"
+              href="https://smeltery.github.io/pyreload-cli"
               className="text-slate-300 hover:text-cyan-400 transition text-sm font-medium inline-flex items-center gap-1.5 py-2"
               target="_blank"
               rel="noopener noreferrer"
@@ -77,7 +77,7 @@ export function Navigation() {
             </a>
             <div className="flex flex-col gap-3 pt-2">
               <a
-                href="https://github.com/dotbrains/pyreload-cli"
+                href="https://github.com/smeltery/pyreload-cli"
                 className="inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-slate-800 hover:bg-slate-700 border border-cyan-500/30 text-slate-200 rounded-lg transition text-sm font-medium"
                 target="_blank"
                 rel="noopener noreferrer"

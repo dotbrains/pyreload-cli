@@ -17,10 +17,10 @@ export function Hero() {
           <span className="text-cyan-400 font-semibold"> Full support for Docker, Vagrant, and mounted filesystems</span> via polling mode.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
-          <a href="https://dotbrains.github.io/pyreload-cli" className="px-6 sm:px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-500/50 transition text-sm sm:text-base">
+          <a href="https://smeltery.github.io/pyreload-cli" className="px-6 sm:px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg font-semibold hover:shadow-lg hover:shadow-cyan-500/50 transition text-sm sm:text-base">
             Get Started
           </a>
-          <a href="https://github.com/dotbrains/pyreload-cli" className="px-6 sm:px-8 py-3 bg-slate-800 rounded-lg font-semibold hover:bg-slate-700 transition flex items-center justify-center gap-2 text-sm sm:text-base">
+          <a href="https://github.com/smeltery/pyreload-cli" className="px-6 sm:px-8 py-3 bg-slate-800 rounded-lg font-semibold hover:bg-slate-700 transition flex items-center justify-center gap-2 text-sm sm:text-base">
             <Github className="w-4 h-4 sm:w-5 sm:h-5" />
             View on GitHub
           </a>

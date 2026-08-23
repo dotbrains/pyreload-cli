@@ -15,7 +15,7 @@ export function CTA() {
             Install from PyPI
             <ExternalLink className="w-4 h-4" />
           </a>
-          <a href="https://dotbrains.github.io/pyreload-cli" className="px-8 py-3 bg-slate-800 rounded-lg font-semibold hover:bg-slate-700 transition">
+          <a href="https://smeltery.github.io/pyreload-cli" className="px-8 py-3 bg-slate-800 rounded-lg font-semibold hover:bg-slate-700 transition">
             Read Documentation
           </a>
         </div>
